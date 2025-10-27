@@ -9,7 +9,7 @@
     <audio>
         <a href="./media.html"><audio src="./assests/song 1.mp3"type=audio/mp3></audio></a><br><br>
         <controls
-        <source src="./assests/song 1.mp3"type=audio/mp3>
+        < source src="./assests/song 1.mp3"type=audio/mp3>
     </audio>
 </body>
 </html>
