@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cards{
+            margin-top: 10px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+            max-width: 1200px;
+            gap: 10px;
+            margin: auto;
+        }
+        img:hover{
+            transform: scale(1.5);
+            cursor: pointer;
+            border-radius: 10px;
+        }
+        .cards image{
+            width: 80px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>POKEMON WORLD</h1>
+    <header>
+        <nav>
+            <ul>
+                <div style="display: flex;background-color: grey;">
+                    <div style="width: 200;padding: 20px;text-align: center;">
+                        <img src="./assets/Pokemon Logo.jpeg" width="100px" height="100px">
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Contact</li>
+                        <li><button style="margin-left: 500px; border-radius:5px;">Register</button></li>
+                    </div>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="cards">
+                <div style="width: 200;padding: 50px;text-align: center;">
+                    <a href="./AR.html" >
+                        <img src="./assets/Arceus.jpeg" width="300px" height="400px">
+                        <h2>click on photo to know about Arceus</h2></a>
+                </div>
+                <div style="width: 200;padding: 50px;text-align: center;">
+                    <a href="./HO.html" >
+                        <img src="./assets/Ho-Oh.jpeg" width="300px" height="400px">
+                        <h2>click on photo to know about HO-oh</h2></a>
+                </div>
+                <div style="width: 200;padding: 50px;text-align: center;">
+                    <a href="./MOl.html" >
+                        <img src="./assets/Moltres.jpeg" width="300px" height="400px">
+                        <h2>click on photo to know about Moltres</h2></a>
+                </div>
+                <div style="width: 200;padding: 50px;text-align: center;">
+                    <a href="./ART.html" >
+                        <img src="./assets/Articuno.jpeg" width="300px" height="400px">
+                        <h2>click on photo to know about Articuno</h2></a>
+                </div>
+                <div style="width: 200;padding: 50px;text-align: center;">
+                    <a href="./Z.html" >
+                        <img src="./assets/Xerneas.jpeg" width="300px" height="400px">
+                        <h2>click on photo to know about Xerneas</h2></a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
